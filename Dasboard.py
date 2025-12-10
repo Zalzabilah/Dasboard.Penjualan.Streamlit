@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import sklearn as skl
+import plotly.express as px
 
 
 # Coba import plotly.express, jika gagal, gunakan alternatif atau pesan error
@@ -295,3 +296,4 @@ elif page == "Prediksi":
                 except Exception as e:
 
                     st.error(f"Terjadi kesalahan saat melakukan prediksi: {str(e)}")
+
